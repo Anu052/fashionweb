@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #010101;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.logo{
+    font-size: 1.9rem;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+#ff{
+    margin-right: 10px;
+}
+input{
+    padding: 4px;
+    border-radius: 6px;
+}
+nav ul li:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section1{
+    width: 100%;
+    height: 750px;
+}
+.section1::before{
+    content: "";
+    position: absolute;
+    background-image: url("https://www.webdesignerdepot.com/cdn-origin/uploads/2013/07/2222.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    z-index: -1;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #010101;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+.cont h3{
+    padding: 25px;
+    font-size: 1.5rem;
+}
+.section5{
+    height: 300px;   
+    border: 2px solid red;
+}
+form input{
+    color: black;
+}
+
+footer{
+    background-color: #010101;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.section3 .cont{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    text-align: center;
+
+}
+.main h1{
+    padding: 25px;
+}
+.box1{
+    margin: 10px;
+    height: 400px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    text-align: center;
+}
+.main1{
+  
+    height: 300px;
+    background-color: #010101;
+    color: white;
+}
+.main2{
+
+    height: 300px;
+    background-color: rgb(23, 135, 163);
+    color: white;
+}
+#fi{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#fi:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width:1200px) {
+    .section1{
+        width: 100%;
+        height: 750px;
+    }
+    .section1::before{
+        content: "";
+        position: absolute;
+        background-image: url("https://th.bing.com/th/id/R.a82d3a804e2e59a412983770aa551bd3?rik=s5oYCckDhPlldQ&pid=ImgRaw&r=0");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 750px;
+        z-index: -1;
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:10px;
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section2{
+   display: block;
+   height: 450px;
+    text-align: center;
+    }
+    .section2 h1{
+        padding: 20px;
+    }
+    .section3{
+        height: 1570px;
+    }
+    .section3 .cont{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        background-color: #010101;
+        flex-direction: column;
+    }
+    .section4{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 900px;
+    }
+    .section4 .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+    input{
+        padding: 4px;
+        border-radius: 6px;
+        display: none;
+    }
+    .cont2 img{
+        display: block;
+        width: 275px;
+        height: 300px;
+    }
+    .c1 img{
+        display: block;
+        width: 275px;
+        height: 270px;
+    }
+    .main1{
+  
+        height: 400px;
+        background-color: #010101;
+        color: white;
+    }
+    .main2{
+    
+        height: 400px;
+        background-color: rgb(23, 135, 163);
+        color: white;
+    }
+
+
+}
